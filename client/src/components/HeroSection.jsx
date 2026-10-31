@@ -80,7 +80,7 @@ const HeroSection = () => {
             {/* Secondary CTA - Demoted to ghost/text variant */}
             <div
               className="text-indigo-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-toboggan-medium text-base sm:text-lg text-center cursor-pointer border-2 border-transparent hover:underline"
-              onClick={() => initiatePayment(course)}
+              onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Learn More
             </div>
