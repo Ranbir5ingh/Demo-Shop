@@ -70,16 +70,16 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Button - Using Toboggan for brand consistency */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3 items-center sm:items-start">
             <div
               className="bg-gradient-to-r from-indigo-500 to-indigo-400 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-toboggan-medium text-base sm:text-lg hover:scale-105 transition-all duration-300 text-center cursor-pointer"
               onClick={() => initiatePayment(course)}
             >
               Get ResumeKit Pro - ₹499
             </div>
-            {/* Secondary CTA - Demoted to ghost/text variant */}
+            {/* Secondary CTA - Demoted to underlined text link */}
             <div
-              className="text-indigo-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-toboggan-medium text-base sm:text-lg text-center cursor-pointer border-2 border-transparent hover:underline"
+              className="text-indigo-600 font-toboggan-medium text-sm sm:text-base cursor-pointer underline hover:opacity-80 transition-opacity pt-1"
               onClick={() => initiatePayment(course)}
             >
               Learn More
