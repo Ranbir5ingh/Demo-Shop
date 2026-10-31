@@ -125,6 +125,7 @@ const HeroSection = () => {
                   <img
                     src={src}
                     alt={`Resume Template ${index + 1}`}
+                    loading={index === 0 ? "eager" : "lazy"}
                     className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
                   />
                 </div>
