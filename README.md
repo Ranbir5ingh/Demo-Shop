@@ -1,6 +1,6 @@
 ﻿# Webruit Demo Shop
 
-**Live demo:** [demo-website-two-omega.vercel.app](https://demo-website-two-omega.vercel.app/) ┬╖ **The product watching it:** [webruit.tech](https://webruit.tech)
+**Live demo:** [demo-website-two-omega.vercel.app](https://demo-website-two-omega.vercel.app/) - **The product watching it:** [webruit.tech](https://webruit.tech)
 
 The site Webruit is pointed at. This repository is a demo storefront, not a folder inside the product. [Webruit](https://github.com/Ranbir5ingh/Webruit) is the intelligence platform. This shop is the website that platform watches, understands, and proposes changes for.
 
@@ -27,6 +27,5 @@ The public site is the ResumeKit Pro sales page: hero, features, reviews, a call
 ## Repository
 
 ```text
-.
-ΓööΓöÇΓöÇ client/            # Vite + React storefront ΓÇö the whole demo
+client/            # Vite + React storefront - the whole demo
 ```
